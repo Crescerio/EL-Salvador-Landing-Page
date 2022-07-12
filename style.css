@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbar{
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 60px;
+    color: #E5E7EB;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#header{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 60px;
+    color: #E5E7EB;
+}
+
+.right-links{
+    display: flex;
+    justify-self: flex-end;
+    margin-right: 60px;
+    gap: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.main{
+    background-image: url(images/backgroundtwo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.center{
+    display: flex;
+    padding: 40px;
+    background-color: rgba(0, 0, 0 ,0.6);
+    border-radius: 40px;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 0px 40px 40px 40px;
+    max-width: 1100px;
+}
+
+.left-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+}
+
+#hero{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.subtext{
+    color: #E5E7eb;
+}
+
+button{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 12px 48px;
+    border: none;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#flag{
+    width: 400px;
+}
+
+.title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    text-align: center;
+    margin: 40px;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 120px;
+    margin-left: 200px;
+    margin-right: 200px;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+}
+
+.cardbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    max-width: 150px;
+}
+
+.barberry{
+    width: 150px;
+    height:150px;
+    max-width: 150px;
+    border: 2px solid blue;
+    border-radius: 30px;
+    box-shadow: 2px 2px #888888;
+}
+
+#music{
+    image-orientation: from-image;
+}
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #0047AB;
+    padding: 100px;
+    gap: 16px;
+    align-items: center;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: light italic;
+    color: white;
+    max-width: 800px;
+}
+
+.quote-two{
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: -400px;
+    max-width: 800px;
+    color: white;
+}
+
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    background-image: url("images/backgroundtwo.jpg");
+    background-size: cover;
+    
+}
+
+#action{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ad{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 40px 100px;
+    display: flex;
+    gap: 50px;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ad button{
+    border: 2px solid white;
+    align-self: center;
+    justify-self: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 64px;
+    font-size: 12px;
+}
+
+@media(max-width: 768px){
+    .center{
+        flex-wrap: wrap;
+    }
+}
+
